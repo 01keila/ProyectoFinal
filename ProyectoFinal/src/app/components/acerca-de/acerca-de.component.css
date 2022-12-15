@@ -45,3 +45,13 @@ div{
         top: 740px;
     }
 }
+@media (min-width: 1462px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 515px;
+    }
+}
