@@ -1,0 +1,58 @@
+.row{
+    padding: 20px;
+    
+    /*habria q sacar el gutter */
+}
+
+div{
+    background-color: #a1b5cd;
+    text-align: center;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+}
+/* foto de perfil*/
+@media (max-width: 399px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 33%;
+        top: 987px;
+    }
+}
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 600px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 33%;
+        top: 990px;
+    }
+}
+
+@media (min-width: 1462px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 515px;
+    }
+}
