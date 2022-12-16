@@ -15,6 +15,16 @@ div{
     margin-left: 10px;
 }
 /* foto de perfil*/
+@media (max-width: 399px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 33%;
+        top: 987px;
+    }
+}
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
@@ -32,19 +42,10 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 33%;
-        top: 660px;
+        top: 990px;
     }
 }
-@media (max-width: 399px){
-    #fotodeperfil{
-        position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
-        left: 33%;
-        top: 740px;
-    }
-}
+
 @media (min-width: 1462px){
     #fotodeperfil{
         position: absolute;
