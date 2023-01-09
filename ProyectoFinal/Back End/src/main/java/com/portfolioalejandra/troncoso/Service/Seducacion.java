@@ -20,10 +20,10 @@ public class Seducacion {
     }
     
     public Optional<Educacion> getOne(int id){
-        return rEducacion.findById(id);        
+        return rEducacion.findById(id);
     }
     
-    public Optional<Educacion>getByNombreE(String nombreE){
+    public Optional<Educacion> getByNmbreE(String nombreE){
         return rEducacion.findByNombreE(nombreE);
     }
     
@@ -35,11 +35,11 @@ public class Seducacion {
         rEducacion.deleteById(id);
     }
     
-    public boolean existById(int id){
+    public boolean existsById(int id){
         return rEducacion.existsById(id);
     }
     
-    public boolean existByNombreE(String nombreE){
+    public boolean existsByNombreE(String nombreE){
         return rEducacion.existsByNombreE(nombreE);
     }
 }

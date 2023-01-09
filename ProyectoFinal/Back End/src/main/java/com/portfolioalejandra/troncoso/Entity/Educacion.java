@@ -13,9 +13,8 @@ public class Educacion {
     private int id;
     private String nombreE;
     private String descripcionE;
-    
-    public Educacion(){
-        
+
+    public Educacion() {
     }
 
     public Educacion(String nombreE, String descripcionE) {
