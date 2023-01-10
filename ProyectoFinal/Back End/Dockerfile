@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM alpine:3.14
 
 MAINTAINER alejandrapaz
 
